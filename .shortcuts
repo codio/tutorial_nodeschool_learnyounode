@@ -1,0 +1,5 @@
+{
+  "Run": "learnyounode select {{current_file}} && learnyounode run {{current_file}}",
+  "Verify": "learnyounode select {{current_file}} && learnyounode verify {{current_file}},
+  "default": "Verify"
+}
