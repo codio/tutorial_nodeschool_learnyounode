@@ -1,5 +1,5 @@
 @annotation:tour hello_world 
-#Hello World
+#1. Hello World
 ##Challenge
 Write a program that prints the text "HELLO WORLD" to the console (stdout).
 
@@ -23,7 +23,7 @@ to proceed. Your program will be tested, a report will be generated, and the les
 
 
 @annotation:tour baby_steps
-#Baby Steps
+#2. Baby Steps
 ##Challenge
 Write a program that accepts one or more numbers as command-line arguments and prints the sum of those numbers to the console (stdout).
 
@@ -53,7 +53,7 @@ To test your program without verifying it, you can invoke it with `learnyounode 
 
 
 @annotation:tour my_first_io
-#My First IO
+#3. My First IO
 
 ##Challenge
 Write a program that uses a single **synchronous** filesystem operation to read a file and print the number of newlines it contains to the console (stdout), similar to running `cat file | wc -l`.
@@ -81,7 +81,7 @@ If you're looking for an easy way to count the number of newlines in a string, r
 
     
 @annotation:tour my_first_async_io
-#My First Async IO
+#4. My First Async IO
 ##Challenge
 Write a program that uses a single **asynchronous** filesystem operation to read a file and print the number of newlines it contains to the console (stdout), similar to running `cat file | wc -l`.
 
@@ -104,7 +104,7 @@ so you can check if an error occurred by checking whether the first argument is 
 
 
 @annotation:tour filtered_ls
-#Filtered ls (folder contents listing)
+#5. Filtered ls (folder contents listing)
 
 ##Challenge
 Create a program that prints a list of files in a given directory, filtered by the extension of the files. You will be provided a directory name as the first argument to your program (e.g. '/path/to/dir/') and a file extension to filter by as the second
@@ -127,7 +127,7 @@ where `list` is an array of filename strings.
 
 
 @annotation:tour make_it_modular
-#Make it modular
+#6. Make it modular
 
 ##Challenge
 This problem is the same as the previous but introduces the concept of **modules**. You will need to create two files to solve this.
@@ -173,7 +173,7 @@ Also keep in mind that it is idiomatic to check for errors and do early-returns 
 - [forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 @annotation:tour http_client
-#An http client
+#7. An http client
 
 ##Challenge
 Write a program that performs an HTTP GET request to a URL provided to you as the first command-line argument. Write the String contents of **each** "data" event from the response to a new line on the console (stdout).
@@ -209,7 +209,7 @@ The `response` object / Stream that you get from `http.get()` also has a `setEnc
 
 
 @annotation:tour http_collect
-#Http Collect
+#8. Http Collect
 
 ##Challenge
 Write a program that performs an HTTP GET request to a URL provided to you as the first command-line argument. Collect **all** data from the server (not just the first "data" event) and then write two lines to the console (stdout).
@@ -249,7 +249,7 @@ Note that you will probably need to `data.toString()` to convert from a Buffer.
 
 
 @annotation:tour juggling_async
-#Juggling Async
+#9. Juggling Async
 ##Challenge
 This problem is the same as the previous problem (HTTP COLLECT) in that you need to use [`http.get()`](http://nodejs.org/api/http.html#http_http_get_options_callback). However, this time you will be provided with **three** URLs as the first three command-line arguments.
 
@@ -266,7 +266,7 @@ But for this exercise, try and do it without any external helper library!
 
 
 @annotation:tour time_server
-#Time Server
+#10. Time Server
 ##Challenge
 Write a **TCP time server**!
 
@@ -325,7 +325,7 @@ Or, if you want to be adventurous, use the [moment](https://npmjs.org/package/mo
 
 
 @annotation:tour http_file_server
-#HTTP File Server
+#11. HTTP File Server
 ##Challenge
 Write an HTTP **server** that serves the same text file for each request it receives.
 
@@ -366,7 +366,7 @@ The `fs` core module also has some streaming APIs for files. You will need to us
 
 
 @annotation:tour http_uppercaserer
-#Upper Caserer
+#12. Upper Caserer
 ##Challenge
 Write an HTTP **server** that receives only POST requests and converts incoming POST body characters to upper-case and returns it to the client.
 
@@ -396,7 +396,7 @@ To install [through2-map](https://npmjs.org/package/through2-map)  type:
 
 
 @annotation:tour http_json_api_server
-#HTTP json api server
+#13. HTTP json api server
 ##Challenge
 Write an HTTP **server** that serves JSON data when it receives a GET request to the path '/api/parsetime'. Expect the request to contain a query string with a key 'iso' and an ISO-format time as the value. 
 

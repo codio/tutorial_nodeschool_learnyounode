@@ -1,34 +1,44 @@
-# Learn You The Node.js For Much Win!
+#Nodeschool Tutorials on Codio
 
-**An intro to Node.js via a set of self-guided workshops.**
+![Nodeschool](http://nodeschool.io/images/nodeschool.png)
 
-[![NPM](https://nodei.co/npm/learnyounode.png?downloads=true&stars=true)](https://nodei.co/npm/learnyounode/) [![NPM](https://nodei.co/npm-dl/learnyounode.png?months=3)](https://nodei.co/npm/learnyounode/)
+#Learn You The Node.js For Much Win!
 
-![Learn You The Node.js For Much Win!](https://raw.github.com/rvagg/learnyounode/master/learnyounode.png)
+##Credits
+The Nodeschool tutorials are the much excellent work of the following developers
 
-  1. Install [Node.js](http://nodejs.org/)
-  2. Run `sudo npm install learnyounode -g`
-  3. Run `learnyounode`
-  4. **.. profit!**
+Rod Vagg ([github/rvagg](https://github.com/rvagg), [twitter@rvagg](http://twitter.com/rvagg)), 
+Andrey Sidorov ([github/sidorares](https://github.com/sidorares), [twitter@sidorares](http://twitter.com/sidorares)), 
+Julián Duque ([github/julianduque](https://github.com/julianduque), [twitter@julian_duque](http://twitter.com/julian_duque)), 
+Lars-Magnus Skog ([github/ralphtheninja](https://github.com/ralphtheninja), [twitter@ralphtheninja](http://twitter.com/ralphtheninja)), 
+Tim Inman ([github/thehack](https://github.com/thehack), [twitter@timinman](http://twitter.com/timinman)), 
+Dan Flettre ([github/Flet](https://github.com/Flet), [twitter@flettre](http://twitter.com/flettre)) 
 
-<b><code>learnyounode</code></b> will run through a series of Node.js workshops. Starting at a basic *"HELLO WORLD"* and moving on to more advanced exercises about dealing with synchronous & asynchronous I/O, filesystem operations, TCP and HTTP networking, events and streams.
+##Donations
+If you feel you have benefitted from this other tutorials, how about [donating to Rodd Vagg using gittip](https://www.gittip.com/rvagg/)?
 
-Once you have finished <b><code>learnyounode</code></b>, graduate to <b><code>[stream-adventure](https://github.com/substack/stream-adventure)</code></b> for a set of exercises that dig in to Node's streams.
+#Tutorial 01 - learnyounode
+`learnyounode` will run through a series of Node.js workshops. Starting at a basic "HELLO WORLD" and moving on to more advanced exercises about dealing with synchronous & asynchronous I/O, filesystem operations, TCP and HTTP networking, events and streams.
 
-### Contributors
+Once you have finished learnyounode, graduate to [stream-adventure]() for a set of exercises that dig in to Node's streams.
 
-<b><code>learnyounode</code></b> is proudly brought to you by the following hackers:
+##Getting Started
+In the Codio treeview on the left, you will see the lessons contained within this tutorial. Open up each folder (lesson) and you will see a file called `homework.js`. 
 
-<table><tbody>
-<tr><th align="left">Rod Vagg</th><td><a href="https://github.com/rvagg">GitHub/rvagg</a></td><td><a href="http://twitter.com/rvagg">Twitter/@rvagg</a></td></tr>
-<tr><th align="left">Andrey Sidorov</th><td><a href="https://github.com/sidorares">GitHub/sidorares</a></td><td><a href="http://twitter.com/sidorares">Twitter/@sidorares</a></td></tr>
-<tr><th align="left">Julián Duque</th><td><a href="https://github.com/julianduque">GitHub/julianduque</a></td><td><a href="http://twitter.com/julian_duque">Twitter/@julian_duque</a></td></tr>
-<tr><th align="left">Lars-Magnus Skog</th><td><a href="https://github.com/ralphtheninja">GitHub/ralphtheninja</a></td><td><a href="http://twitter.com/ralphtheninja">Twitter/@ralphtheninja</a></td></tr>
-<tr><th align="left">Tim Inman</th><td><a href="https://github.com/thehack">GitHub/thehack</a></td><td><a href="http://twitter.com/timinman">Twitter/@timinman</a></td></tr>
-</tbody></table>
+![tree](stuff/tree.png)
 
-## License
+To see the challenge, click on the blue icon (circled) and your instructions will appear in a popup window. You can position and resize this window to suit your screen.
 
-**learnyounode** is Copyright (c) 2013 Rod Vagg [@rvagg](https://twitter.com/rvagg) and licenced under the MIT licence. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
+You can now write your code. 
 
-**learnyounode** builds on the excellent work by [@substack](https://github.com/substack) and [@maxogden](https://github.com/maxogden) who created **[stream-adventure](https://github.com/substack/stream-adventure)** which serves as the original foundation for **learnyounode**.
+##Running your code
+When you're ready to test your code, you use the right-most menu option which has a drop-down arrow. There are two ways to runs your code
+
+- The dropdown menu should default to 'Run'. This will run your code using the tutorial framework. It supplies input data automatically if required. You will then see output in your Console window.
+- If you click on the dropdown arrow, you will also see a 'Run using Node' option. This will run your code using node itself. If you want to customize the inputs, then edit the `.shortcuts` file where you can customize all input parameters and even add new ones.
+
+##Verifying your code
+Once you think you have completed the challenge, select the 'Verify' option from the dropdown and then press the button. The output will be shown in the console window. If it verifies correctly, you will see your lesson folder highlighted, so you know which lessons you have completed successfully.
+
+##Other Tutorials
+Nodeschool.io has a several tutorials. We have packaged these up so they run within Codio and the full set can be found on our [Nodeschool Tutorial page.](http://codio.com/tutorials)
