@@ -1,7 +1,0 @@
-{
-  "Run": "learnyounode select {{current_file}} && learnyounode run {{current_file}}",
-  "Verify": "learnyounode select {{current_file}} && learnyounode verify {{current_file}},
-  "Run using node", : "node {{current_file}},
-  "Where am I?" : "learnyounode",
-  "default": "Run"
-}

@@ -1,0 +1,8 @@
+{
+    "default": "Completed Lessons",
+    "commands": {
+        "Run Lesson" : "cd {{path}} && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode run {{filename_no_ext}} ",
+        "Verify Lesson" : "cd {{path}}  && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode verify {{filename_no_ext}}",
+        "Completed Lessons" : "learnyounode"
+    }
+}
