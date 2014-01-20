@@ -1,8 +1,8 @@
 {
-    "default": "Completed Lessons",
+    "default": "Run Lesson",
     "commands": {
-        "Run Lesson" : "cd {{path}} && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode run {{filename_no_ext}} ",
-        "Verify Lesson" : "cd {{path}}  && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode verify {{filename_no_ext}}",
+        "Run Lesson" : "cd {{path}} && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode run {{filename_no_ext}} && cd ..",
+        "Verify Lesson" : "cd {{path}}  && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode verify {{filename_no_ext}} && cd ..",
         "Completed Lessons" : "learnyounode"
     }
 }
