@@ -1,8 +1,10 @@
 {
     "default": "Run Lesson",
-    "commands": {
-        "Run Lesson" : "cd {{path}} && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode run {{filename_no_ext}} && cd ..",
-        "Verify Lesson" : "cd {{path}}  && learnyounode select {{filename_no_ext}} > /dev/null && learnyounode verify {{filename_no_ext}} && cd ..",
+    "commands": { 
+        "Run Lesson" : "./ns-executes.sh run {{filename_no_ext}} {{path}}",
+        "Verify Lesson" : "./ns-executes.sh verify {{filename_no_ext}} {{path}}",
         "Completed Lessons" : "learnyounode"
     }
-}
+} 
+
+
