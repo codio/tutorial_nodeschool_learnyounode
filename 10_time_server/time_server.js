@@ -1,9 +1,10 @@
 // @annotation:tour time_server
 // 
-// <-- click the blue icon in the gutter of line 1 for instructions on this lesson
+// <-- click the blue icon in the gutter 
+//     for instructions on this lesson
 // 
-// For a detailed explanation of this tutorial, refer to the README.md file 
-// then starting coding in this file
-
+// The README.md file contains complete instructions
+// for using these tutorials.
+// Then just start coding away in this file
 
 

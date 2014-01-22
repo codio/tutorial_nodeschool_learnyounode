@@ -1,4 +1,5 @@
-name": "learnyounode",
+{ 
+  "name": "learnyounode",
   "version": "0.3.1",
   "description": "Learn You The Node.js For Much Win! An intro to Node.js via a set of self-guided workshops.",
   "author": "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)",
