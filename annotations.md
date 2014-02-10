@@ -72,7 +72,7 @@ All synchronous (or blocking) filesystem methods in the `fs` module end with 'Sy
 - `Buffer` objects are Node's way of efficiently representing arbitrary arrays of data, whether it be ascii, binary or some other format.
 - `Buffer` objects can be converted to strings by simply calling the `toString()` method on them. e.g. `var str = buf.toString()`.
 
-If you're looking for an easy way to count the number of newlines in a string, recall that a JavaScript `String` can be `.split()` into an array of substrings and that '\n'. Using this method you'll end up with an array that has one more element than the number of newlines.
+If you're looking for an easy way to count the number of newlines in a string, recall that a JavaScript `String` can be `.split()` into an array of substrings and that `\n`. Using this method you'll end up with an array that has one more element than the number of newlines.
 
     
 @annotation:tour my_first_async_io
@@ -91,7 +91,7 @@ Remember that idiomatic Node.js callbacks normally have the signature:
 
   function (err, data) { ... }
 
-so you can check if an error occurred by checking whether the first argument is truthy. If there is no error, you should have your `Buffer` object as the second argument. As with `readFileSync()`, you can supply 'utf8' as the second argument and put the callback as the third argument and you will get a `String` instead of a `Buffer`.
+so you can check if an error occurred by checking whether the first argument is truthy. If there is no error, you should have your `Buffer` object as the second argument. As with `readFileSync()`, you can supply `utf8` as the second argument and put the callback as the third argument and you will get a `String` instead of a `Buffer`.
 
 ###Documentation
 - [fs module](http://nodejs.org/api/fs.html#fs_file_system)
@@ -102,10 +102,10 @@ so you can check if an error occurred by checking whether the first argument is 
 #5. Filtered ls (folder contents listing)
 
 ##Challenge
-Create a program that prints a list of files in a given directory, filtered by the extension of the files. You will be provided a directory name as the first argument to your program (e.g. '/path/to/dir/') and a file extension to filter by as the second
+Create a program that prints a list of files in a given directory, filtered by the extension of the files. You will be provided a directory name as the first argument to your program (e.g. `/path/to/dir/`) and a file extension to filter by as the second
 argument.
 
-For example, if you get 'txt' as the second argument then you will need to filter the list to only files that **end with .txt**. 
+For example, if you get `txt` as the second argument then you will need to filter the list to only files that **end with .txt**. 
 
 The list of files should be printed to the console, one file per line. You **must** use asynchronous I/O.
 
@@ -142,11 +142,11 @@ Create a new module by creating a new file that just contains your directory rea
 
 Or you can use a named function and assign the name.
 
-To use your new module in your original program file, use the `require()` call in the same way that you `require('fs')` to load the `fs` module. The only difference is that for local modules must be prefixed with './'. So, if your file is named mymodule.js then: 
+To use your new module in your original program file, use the `require()` call in the same way that you `require('fs')` to load the `fs` module. The only difference is that for local modules must be prefixed with `./`. So, if your file is named mymodule.js then: 
 
     var mymodule = require('./mymodule.js')
 
-The '.js' is optional here and you will often see it omitted.
+The `.js` is optional here and you will often see it omitted.
 
 You now have the `module.exports` object in your module assigned to the `mymodule` variable. Since you are exporting a single function, `mymodule` is a function you can call!
 
@@ -176,7 +176,10 @@ Write a program that performs an HTTP GET request to a URL provided to you as th
 You'll want to test it with 
 
 - `node yourcode.js http://www.google.com/index.html`
-- or `learnyounode run yourcode.js http://www.google.com/index.html`
+
+or
+
+- `learnyounode run yourcode.js http://www.google.com/index.html`
 
 ##Hints
 For this exercise you will need to use the [http](http://nodejs.org/api/http.html#http_http) core module.
@@ -355,9 +358,9 @@ A typical Node HTTP server looks like this:
 The `fs` core module also has some streaming APIs for files. You will need to use the `fs.createReadStream()` method to create a stream representing the file you are given as a command-line argument. The method returns a stream object which you can use [src.pipe(dst)](http://nodejs.org/api/stream.html#stream_readable_pipe_destination_options) to pipe the data from the `src` stream to the `dst` stream. In this way you can connect a filesystem stream with an HTTP response stream.
 
 ###Documentation
-[http](http://nodejs.org/api/http.html#http_http)
-[http.createServer()](http://nodejs.org/api/http.html#http_http_createserver_requestlistener)
-[fs.createReadStream()](http://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
+- [http](http://nodejs.org/api/http.html#http_http)
+- [http.createServer()](http://nodejs.org/api/http.html#http_http_createserver_requestlistener)
+- [fs.createReadStream()](http://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
 
 
 @annotation:tour http_uppercaserer
@@ -391,9 +394,9 @@ To install [through2-map](https://npmjs.org/package/through2-map)  type:
 
 
 @annotation:tour http_json_api_server
-#13. HTTP json api server
+#13. HTTP Json Api Server
 ##Challenge
-Write an HTTP **server** that serves JSON data when it receives a GET request to the path '/api/parsetime'. Expect the request to contain a query string with a key 'iso' and an ISO-format time as the value. 
+Write an HTTP **server** that serves JSON data when it receives a GET request to the path `/api/parsetime`. Expect the request to contain a query string with a key `iso` and an ISO-format time as the value. 
 
 For example:
 
@@ -407,7 +410,7 @@ The JSON response should contain only 'hour', 'minute' and 'second' properties. 
       "second": 15
     }
 
-Add second endpoint for the path '/api/unixtime' which accepts the same query string but returns UNIX epoch time under the property
+Add second endpoint for the path `/api/unixtime` which accepts the same query string but returns UNIX epoch time under the property
 'unixtime'. 
 
 For example:
