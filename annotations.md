@@ -268,7 +268,7 @@ But for this exercise, try and do it without any external helper library!
 ##Challenge
 Write a **TCP time server**!
 
-Your server should listen to TCP connections on **port 8000**. For each connection you must write the current date & time in the format:
+Your server should listen to TCP connections on the port provided by the first argument to your program. For each connection you must write the current date & 24 hour time in the format:
 
     YYYY-MM-DD hh:mm
 
