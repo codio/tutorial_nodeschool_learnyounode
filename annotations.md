@@ -334,7 +334,7 @@ Your server should listen on **port 8000**.
 ##Hints
 Because we need to create an HTTP server for this exercise rather than a generic TCP server, we should use the [http](http://nodejs.org/api/http.html#http_http) module from Node core. 
 
-Like the `net` module, `http` also has a method named named [http.createServer()](http://nodejs.org/api/http.html#http_http_createserver_requestlistener) but this one creates a server that can talk
+Like the `net` module, `http` also has a method named [http.createServer()](http://nodejs.org/api/http.html#http_http_createserver_requestlistener) but this one creates a server that can talk
 HTTP.
 
 [http.createServer()](http://nodejs.org/api/http.html#http_http_createserver_requestlistener) takes a callback that is called once for each connection received by your server. The callback function has the signature:
