@@ -8,6 +8,8 @@ This tutorial was written by [Rod Vagg](https://github.com/rvagg). If you find t
 #Video
 If you prefer a video rather than reading the instructions below, there is a video that runs through the Codio + Nodeschool.io system (yes, it's a tutorial on how to use the tutorial) : [https://vimeo.com/86100550](https://vimeo.com/86100550)
 
+**Please Note the Video shows our old 'Tools>Tutorial' method, use 'Tools>Guides(Beta)>Play' now**
+
 #Installation
 1. Create an account with http://codio.com (don't be frightened, it's free for all public projects).
 1. You're probably looking at this in GitHub already but if not, go to [https://github.com/codio](https://github.com/codio) and search for "Nodeschool", then select the tutorial you want.
@@ -24,7 +26,7 @@ You'll now need to install the Nodeschool tutorial (each one is an npm package) 
 #2 Writing your code
 There are two different ways you can use Codio to run the Nodeschool.io tutorials. You can switch between them at any time. The great thing is that your code is neatly organized into lessons that you can refer back to later.
 
-- **Tutorial Mode** : select the 'Tools->Tutorial' menu item. Each lesson is presented with a Code window on the left and the instructions on the right, which can be scrolled through and left in place while you code. You can navigate between lessons using the buttons above the instructions.
+- **Tutorial Mode** : select the 'Tools->Guides(Beta)>Play' menu item. Each lesson is presented with a Code window on the left and the instructions on the right, which can be scrolled through and left in place while you code. You can navigate between lessons using the buttons above the instructions.
 - **Manual Mode** : open up the lessons folders and you will see a filename similar to the folder name. You can write your code here and click on the blue icon in the gutter to open up the instructions popup.
 
 
@@ -73,7 +75,7 @@ Each tutorial is installed as node module that can be run from the command line.
 [http://nodeschool.io](http://nodeschool.io) has a several excellent tutorials. We have packaged these up so they run within Codio and the full set can be found on our [Nodeschool Tutorial page.](http://codio.com/tutorials)
 
 #Credits
-![Nodeschool](http://nodeschool.io/images/nodeschool.png)
+[![nodeschool-logo](stuff/nodeschool.png)](http://nodeschool.io)
 
 The Nodeschool tutorials are the much excellent work of the following hackers
 
